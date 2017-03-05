@@ -132,7 +132,7 @@ http.createServer(function(req, res) {
 
 
 	var filePath = false;
-
+	console.log(req.url);
 	if(req.url == '/') {
 		filePath = 'public/index.html';
 	} else {

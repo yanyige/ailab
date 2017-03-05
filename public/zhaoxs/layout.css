@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+a:link { text-decoration: none}
+a:active { text-decoration:blink}
+a:hover { text-decoration:underline} 
+
+
+h1, h2, h3 {
+	color: #527bbd;
+	margin-top: 0.7em;
+	margin-bottom: 0.3em;
+	padding-bottom: 0.2em;
+	line-height: 1.0;
+	padding-top: 0.5em;
+}
+
+h1 {
+	font-size: 165%;
+}
+
+h2 {
+	padding-top: 0.8em;
+	font-size: 125%;
+}
+
+p {
+	margin-top: 0.0em;
+	margin-bottom: 0.8em;
+	padding: 0;
+	line-height: 1.3;
+}
